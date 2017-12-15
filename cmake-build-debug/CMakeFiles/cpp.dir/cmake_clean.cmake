@@ -8,6 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/Prize.cpp.o"
   "CMakeFiles/cpp.dir/Mother.cpp.o"
   "CMakeFiles/cpp.dir/Daughter.cpp.o"
+  "CMakeFiles/cpp.dir/Enemy.cpp.o"
+  "CMakeFiles/cpp.dir/Monster.cpp.o"
+  "CMakeFiles/cpp.dir/Ninja.cpp.o"
   "cpp.pdb"
   "cpp"
 )

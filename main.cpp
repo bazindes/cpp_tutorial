@@ -7,29 +7,41 @@
 #include "Prize.h"
 #include "Mother.h"
 #include "Daughter.h"
+#include "Enemy.h"
+#include "Ninja.h"
+#include "Monster.h"
 
 using namespace std;
 
-int runa = 68;
-
-class ElonHasFriends{
-public:
-    ElonHasFriends(){ num = 100 ;}
-private:
-    int num;
-friend void makeFriends(ElonHasFriends &elonHasFriends);
-};
-
-void makeFriends(ElonHasFriends &elonHasFriends){
-    elonHasFriends.num ++;
-    cout << elonHasFriends.num << endl;
-}
+//int runa = 68;
+//
+//class ElonHasFriends{
+//public:
+//    ElonHasFriends(){ num = 100 ;}
+//private:
+//    int num;
+//friend void makeFriends(ElonHasFriends &elonHasFriends);
+//};
+//
+//void makeFriends(ElonHasFriends &elonHasFriends){
+//    elonHasFriends.num ++;
+//    cout << elonHasFriends.num << endl;
+//}
 
 int main() {
 
-    Daughter daughter;
-    daughter.sayHello();
+    Ninja n;
+    Monster m;
+    Enemy e1 = n;
+    Enemy e2 = m;
+    e1.setAttactPower(10);
+    e2.setAttactPower(20);
+    n.attact();
+    m.attact();
 
+//    Daughter daughter;
+//    daughter.sayHello();
+//
 //    ThisPointer thisPointer(100);
 //    thisPointer.printThis();
 

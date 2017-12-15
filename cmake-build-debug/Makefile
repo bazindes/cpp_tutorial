@@ -204,6 +204,33 @@ Daughter.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Daughter.cpp.s
 .PHONY : Daughter.cpp.s
 
+Enemy.o: Enemy.cpp.o
+
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
 Fibonacci.o: Fibonacci.cpp.o
 
 .PHONY : Fibonacci.o
@@ -231,6 +258,33 @@ Fibonacci.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Fibonacci.cpp.s
 .PHONY : Fibonacci.cpp.s
 
+Monster.o: Monster.cpp.o
+
+.PHONY : Monster.o
+
+# target to build an object file
+Monster.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Monster.cpp.o
+.PHONY : Monster.cpp.o
+
+Monster.i: Monster.cpp.i
+
+.PHONY : Monster.i
+
+# target to preprocess a source file
+Monster.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Monster.cpp.i
+.PHONY : Monster.cpp.i
+
+Monster.s: Monster.cpp.s
+
+.PHONY : Monster.s
+
+# target to generate assembly for a file
+Monster.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Monster.cpp.s
+.PHONY : Monster.cpp.s
+
 Mother.o: Mother.cpp.o
 
 .PHONY : Mother.o
@@ -257,6 +311,33 @@ Mother.s: Mother.cpp.s
 Mother.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Mother.cpp.s
 .PHONY : Mother.cpp.s
+
+Ninja.o: Ninja.cpp.o
+
+.PHONY : Ninja.o
+
+# target to build an object file
+Ninja.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Ninja.cpp.o
+.PHONY : Ninja.cpp.o
+
+Ninja.i: Ninja.cpp.i
+
+.PHONY : Ninja.i
+
+# target to preprocess a source file
+Ninja.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Ninja.cpp.i
+.PHONY : Ninja.cpp.i
+
+Ninja.s: Ninja.cpp.s
+
+.PHONY : Ninja.s
+
+# target to generate assembly for a file
+Ninja.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Ninja.cpp.s
+.PHONY : Ninja.cpp.s
 
 People.o: People.cpp.o
 
@@ -384,12 +465,21 @@ help:
 	@echo "... Daughter.o"
 	@echo "... Daughter.i"
 	@echo "... Daughter.s"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
 	@echo "... Fibonacci.o"
 	@echo "... Fibonacci.i"
 	@echo "... Fibonacci.s"
+	@echo "... Monster.o"
+	@echo "... Monster.i"
+	@echo "... Monster.s"
 	@echo "... Mother.o"
 	@echo "... Mother.i"
 	@echo "... Mother.s"
+	@echo "... Ninja.o"
+	@echo "... Ninja.i"
+	@echo "... Ninja.s"
 	@echo "... People.o"
 	@echo "... People.i"
 	@echo "... People.s"

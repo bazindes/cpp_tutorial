@@ -273,6 +273,78 @@ CMakeFiles/cpp.dir/Daughter.cpp.o.provides: CMakeFiles/cpp.dir/Daughter.cpp.o.re
 CMakeFiles/cpp.dir/Daughter.cpp.o.provides.build: CMakeFiles/cpp.dir/Daughter.cpp.o
 
 
+CMakeFiles/cpp.dir/Enemy.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/Enemy.cpp.o: ../Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wjq/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp.dir/Enemy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/Enemy.cpp.o -c /Users/wjq/CLionProjects/cpp/Enemy.cpp
+
+CMakeFiles/cpp.dir/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/Enemy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjq/CLionProjects/cpp/Enemy.cpp > CMakeFiles/cpp.dir/Enemy.cpp.i
+
+CMakeFiles/cpp.dir/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/Enemy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjq/CLionProjects/cpp/Enemy.cpp -o CMakeFiles/cpp.dir/Enemy.cpp.s
+
+CMakeFiles/cpp.dir/Enemy.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp.dir/Enemy.cpp.o.requires
+
+CMakeFiles/cpp.dir/Enemy.cpp.o.provides: CMakeFiles/cpp.dir/Enemy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Enemy.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/Enemy.cpp.o.provides
+
+CMakeFiles/cpp.dir/Enemy.cpp.o.provides.build: CMakeFiles/cpp.dir/Enemy.cpp.o
+
+
+CMakeFiles/cpp.dir/Monster.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/Monster.cpp.o: ../Monster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wjq/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp.dir/Monster.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/Monster.cpp.o -c /Users/wjq/CLionProjects/cpp/Monster.cpp
+
+CMakeFiles/cpp.dir/Monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/Monster.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjq/CLionProjects/cpp/Monster.cpp > CMakeFiles/cpp.dir/Monster.cpp.i
+
+CMakeFiles/cpp.dir/Monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/Monster.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjq/CLionProjects/cpp/Monster.cpp -o CMakeFiles/cpp.dir/Monster.cpp.s
+
+CMakeFiles/cpp.dir/Monster.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp.dir/Monster.cpp.o.requires
+
+CMakeFiles/cpp.dir/Monster.cpp.o.provides: CMakeFiles/cpp.dir/Monster.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Monster.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/Monster.cpp.o.provides
+
+CMakeFiles/cpp.dir/Monster.cpp.o.provides.build: CMakeFiles/cpp.dir/Monster.cpp.o
+
+
+CMakeFiles/cpp.dir/Ninja.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/Ninja.cpp.o: ../Ninja.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wjq/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpp.dir/Ninja.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/Ninja.cpp.o -c /Users/wjq/CLionProjects/cpp/Ninja.cpp
+
+CMakeFiles/cpp.dir/Ninja.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/Ninja.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjq/CLionProjects/cpp/Ninja.cpp > CMakeFiles/cpp.dir/Ninja.cpp.i
+
+CMakeFiles/cpp.dir/Ninja.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/Ninja.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjq/CLionProjects/cpp/Ninja.cpp -o CMakeFiles/cpp.dir/Ninja.cpp.s
+
+CMakeFiles/cpp.dir/Ninja.cpp.o.requires:
+
+.PHONY : CMakeFiles/cpp.dir/Ninja.cpp.o.requires
+
+CMakeFiles/cpp.dir/Ninja.cpp.o.provides: CMakeFiles/cpp.dir/Ninja.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Ninja.cpp.o.provides.build
+.PHONY : CMakeFiles/cpp.dir/Ninja.cpp.o.provides
+
+CMakeFiles/cpp.dir/Ninja.cpp.o.provides.build: CMakeFiles/cpp.dir/Ninja.cpp.o
+
+
 # Object files for target cpp
 cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/main.cpp.o" \
@@ -283,7 +355,10 @@ cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/ThisPointer.cpp.o" \
 "CMakeFiles/cpp.dir/Prize.cpp.o" \
 "CMakeFiles/cpp.dir/Mother.cpp.o" \
-"CMakeFiles/cpp.dir/Daughter.cpp.o"
+"CMakeFiles/cpp.dir/Daughter.cpp.o" \
+"CMakeFiles/cpp.dir/Enemy.cpp.o" \
+"CMakeFiles/cpp.dir/Monster.cpp.o" \
+"CMakeFiles/cpp.dir/Ninja.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
@@ -297,9 +372,12 @@ cpp: CMakeFiles/cpp.dir/ThisPointer.cpp.o
 cpp: CMakeFiles/cpp.dir/Prize.cpp.o
 cpp: CMakeFiles/cpp.dir/Mother.cpp.o
 cpp: CMakeFiles/cpp.dir/Daughter.cpp.o
+cpp: CMakeFiles/cpp.dir/Enemy.cpp.o
+cpp: CMakeFiles/cpp.dir/Monster.cpp.o
+cpp: CMakeFiles/cpp.dir/Ninja.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wjq/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wjq/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +394,9 @@ CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/ThisPointer.cpp.o.requires
 CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Prize.cpp.o.requires
 CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Mother.cpp.o.requires
 CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Daughter.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Enemy.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Monster.cpp.o.requires
+CMakeFiles/cpp.dir/requires: CMakeFiles/cpp.dir/Ninja.cpp.o.requires
 
 .PHONY : CMakeFiles/cpp.dir/requires
 
