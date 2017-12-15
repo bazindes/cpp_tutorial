@@ -7,6 +7,8 @@
 
 using namespace std;
 
+Enemy::Enemy() {}
+
 Enemy::Enemy(int a)
 :attactPower(a)
 {}

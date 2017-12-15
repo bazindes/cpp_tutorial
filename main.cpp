@@ -32,10 +32,10 @@ int main() {
 
     Ninja n;
     Monster m;
-    Enemy e1 = n;
-    Enemy e2 = m;
-    e1.setAttactPower(10);
-    e2.setAttactPower(20);
+    Enemy *e1 = &n;
+    Enemy *e2 = &m;
+    e1->setAttactPower(10);
+    e2->setAttactPower(20);
     n.attact();
     m.attact();
 

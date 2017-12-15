@@ -34,11 +34,31 @@ Daughter.h
 Mother.h
 /Users/wjq/CLionProjects/cpp/Mother.h
 
+/Users/wjq/CLionProjects/cpp/Enemy.cpp
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
+iostream
+-
+
+/Users/wjq/CLionProjects/cpp/Enemy.h
+
 /Users/wjq/CLionProjects/cpp/Fibonacci.cpp
 Fibonacci.h
 /Users/wjq/CLionProjects/cpp/Fibonacci.h
 
 /Users/wjq/CLionProjects/cpp/Fibonacci.h
+
+/Users/wjq/CLionProjects/cpp/Monster.cpp
+Monster.h
+/Users/wjq/CLionProjects/cpp/Monster.h
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
+iostream
+-
+
+/Users/wjq/CLionProjects/cpp/Monster.h
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
 
 /Users/wjq/CLionProjects/cpp/Mother.cpp
 iostream
@@ -47,6 +67,20 @@ Mother.h
 /Users/wjq/CLionProjects/cpp/Mother.h
 
 /Users/wjq/CLionProjects/cpp/Mother.h
+
+/Users/wjq/CLionProjects/cpp/Ninja.cpp
+Ninja.h
+/Users/wjq/CLionProjects/cpp/Ninja.h
+iostream
+-
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
+
+/Users/wjq/CLionProjects/cpp/Ninja.h
+iostream
+-
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
 
 /Users/wjq/CLionProjects/cpp/People.cpp
 People.h
@@ -99,4 +133,10 @@ Mother.h
 /Users/wjq/CLionProjects/cpp/Mother.h
 Daughter.h
 /Users/wjq/CLionProjects/cpp/Daughter.h
+Enemy.h
+/Users/wjq/CLionProjects/cpp/Enemy.h
+Ninja.h
+/Users/wjq/CLionProjects/cpp/Ninja.h
+Monster.h
+/Users/wjq/CLionProjects/cpp/Monster.h
 

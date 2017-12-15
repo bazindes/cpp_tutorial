@@ -11,11 +11,22 @@ CMakeFiles/cpp.dir/Daughter.cpp.o: ../Daughter.cpp
 CMakeFiles/cpp.dir/Daughter.cpp.o: ../Daughter.h
 CMakeFiles/cpp.dir/Daughter.cpp.o: ../Mother.h
 
+CMakeFiles/cpp.dir/Enemy.cpp.o: ../Enemy.cpp
+CMakeFiles/cpp.dir/Enemy.cpp.o: ../Enemy.h
+
 CMakeFiles/cpp.dir/Fibonacci.cpp.o: ../Fibonacci.cpp
 CMakeFiles/cpp.dir/Fibonacci.cpp.o: ../Fibonacci.h
 
+CMakeFiles/cpp.dir/Monster.cpp.o: ../Enemy.h
+CMakeFiles/cpp.dir/Monster.cpp.o: ../Monster.cpp
+CMakeFiles/cpp.dir/Monster.cpp.o: ../Monster.h
+
 CMakeFiles/cpp.dir/Mother.cpp.o: ../Mother.cpp
 CMakeFiles/cpp.dir/Mother.cpp.o: ../Mother.h
+
+CMakeFiles/cpp.dir/Ninja.cpp.o: ../Enemy.h
+CMakeFiles/cpp.dir/Ninja.cpp.o: ../Ninja.cpp
+CMakeFiles/cpp.dir/Ninja.cpp.o: ../Ninja.h
 
 CMakeFiles/cpp.dir/People.cpp.o: ../Birthday.h
 CMakeFiles/cpp.dir/People.cpp.o: ../People.cpp
@@ -30,8 +41,11 @@ CMakeFiles/cpp.dir/ThisPointer.cpp.o: ../ThisPointer.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Birthday.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Burrito.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Daughter.h
+CMakeFiles/cpp.dir/main.cpp.o: ../Enemy.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Fibonacci.h
+CMakeFiles/cpp.dir/main.cpp.o: ../Monster.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Mother.h
+CMakeFiles/cpp.dir/main.cpp.o: ../Ninja.h
 CMakeFiles/cpp.dir/main.cpp.o: ../People.h
 CMakeFiles/cpp.dir/main.cpp.o: ../Prize.h
 CMakeFiles/cpp.dir/main.cpp.o: ../ThisPointer.h
