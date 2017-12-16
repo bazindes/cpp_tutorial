@@ -9,7 +9,12 @@
 using namespace std;
 
 Ninja::Ninja() {}
+Ninja::Ninja(int a) {}
 
 void Ninja::attact() {
     cout << "Ninja chop! -" << attactPower << endl;
+}
+
+void Ninja::say() {
+    cout << "I'm a Ninja!" << endl;
 }

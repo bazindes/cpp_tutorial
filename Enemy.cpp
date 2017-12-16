@@ -17,6 +17,5 @@ void Enemy::setAttactPower(int a) {
     attactPower = a;
 }
 
-void attact(){
-    cout << "Enemy attacts!" << endl;
-}
+
+

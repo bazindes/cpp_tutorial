@@ -11,7 +11,9 @@
 class Monster : public Enemy{
 public:
     Monster();
+    Monster(int a);
     void attact();
+    void say();
 };
 
 

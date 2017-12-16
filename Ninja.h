@@ -13,7 +13,9 @@ using namespace std;
 class Ninja : public Enemy{
 public:
     Ninja();
+    Ninja(int a);
     void attact();
+    void say();
 };
 
 

@@ -34,10 +34,12 @@ int main() {
     Monster m;
     Enemy *e1 = &n;
     Enemy *e2 = &m;
-    e1->setAttactPower(10);
-    e2->setAttactPower(20);
-    n.attact();
-    m.attact();
+    e1 -> setAttactPower(10);
+    e2 -> setAttactPower(20);
+    e1 -> say();
+    e1 -> attact();
+    e2 -> say();
+    e2 -> attact();
 
 //    Daughter daughter;
 //    daughter.sayHello();

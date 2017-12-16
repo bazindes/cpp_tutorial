@@ -11,7 +11,8 @@ public:
     Enemy();
     Enemy(int a);
     void setAttactPower(int a);
-    void attact();
+    virtual void attact(){};
+    virtual void say() = 0;
 
 protected:
     int attactPower;

@@ -9,7 +9,12 @@
 using namespace std;
 
 Monster::Monster() {}
+Monster::Monster(int a){}
 
 void Monster::attact() {
     cout << "Monster scare! -" << attactPower << endl;
+}
+
+void Monster::say() {
+    cout << "I'm a Monster!" << endl;
 }
