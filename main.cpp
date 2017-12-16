@@ -28,18 +28,76 @@ using namespace std;
 //    cout << elonHasFriends.num << endl;
 //}
 
+//template <class elon>
+//elon cal(elon a, elon b){
+//    return a + b;
+//}
+//
+
+//template <class FIRST, class SECOND>
+//FIRST smaller(FIRST a, SECOND b){
+//    return (a<b?a:b);
+//}
+
+//template <class T>
+//class elon{
+//    T first,second;
+//public:
+//    elon(T a, T b){
+//        first = a;
+//        second = b;
+//    }
+//    T larger();
+//};
+//
+//template <class T>
+//T elon<T>::larger(){
+//    return (first>second?first:second);
+//}
+
+template <class T>
+class Elon{
+public:
+    Elon(T t){
+        cout << t << " is not a character!" << endl;
+    }
+};
+
+template <>
+class Elon<char>{
+public:
+    Elon(char c){
+        cout << c << " is indeed a character!" << endl;
+    }
+};
+
 int main() {
 
-    Ninja n;
-    Monster m;
-    Enemy *e1 = &n;
-    Enemy *e2 = &m;
-    e1 -> setAttactPower(10);
-    e2 -> setAttactPower(20);
-    e1 -> say();
-    e1 -> attact();
-    e2 -> say();
-    e2 -> attact();
+    Elon <int>e1(100);
+    Elon <double>e2(100.92);
+    Elon <char>e3('e');
+
+//    elon <int>e(100 , 150);
+//    cout << "larger is " << e.larger() << endl;
+
+//    int x = 100;
+//    double y = 35.1235;
+//    cout << "smaller is " << smaller(x, y) << " & " << smaller(y,x) << endl;
+
+//    Ninja n;
+//    Monster m;
+//    Enemy *e1 = &n;
+//    Enemy *e2 = &m;
+//    e1 -> setAttactPower(10);
+//    e2 -> setAttactPower(20);
+//    e1 -> say();
+//    e1 -> attact();
+//    e2 -> say();
+//    e2 -> attact();
+
+//    int x = 40,y = 60,z ;
+//    z = cal(x,y);
+//    cout << "z is " << z << endl;
 
 //    Daughter daughter;
 //    daughter.sayHello();
