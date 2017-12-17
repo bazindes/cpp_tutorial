@@ -55,27 +55,44 @@ using namespace std;
 //    return (first>second?first:second);
 //}
 
-template <class T>
-class Elon{
-public:
-    Elon(T t){
-        cout << t << " is not a character!" << endl;
-    }
-};
+//template <class T>
+//class Elon{
+//public:
+//    Elon(T t){
+//        cout << t << " is not a character!" << endl;
+//    }
+//};
+//
+//template <>
+//class Elon<char>{
+//public:
+//    Elon(char c){
+//        cout << c << " is indeed a character!" << endl;
+//    }
+//};
 
-template <>
-class Elon<char>{
-public:
-    Elon(char c){
-        cout << c << " is indeed a character!" << endl;
+void tryCatch(){
+    try {
+        int momsAge = 100;
+        int sonsAge = 200;
+        if(sonsAge > momsAge) {
+            throw 99;
+        }
+    }catch (int e){
+        cout << "Son couldn't be older than Mom! ERROR NUMBER is: " << e << endl;
+    }catch (...){
+        cout << "I can handle every ERROR!" << endl;
     }
-};
+
+}
 
 int main() {
 
-    Elon <int>e1(100);
-    Elon <double>e2(100.92);
-    Elon <char>e3('e');
+    tryCatch();
+
+//    Elon <int>e1(100);
+//    Elon <double>e2(100.92);
+//    Elon <char>e3('e');
 
 //    elon <int>e(100 , 150);
 //    cout << "larger is " << e.larger() << endl;
