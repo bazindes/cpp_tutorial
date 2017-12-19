@@ -89,6 +89,20 @@ using namespace std;
 
 int main() {
 
+    int id;
+    string name;
+    double deposit;
+    ofstream file("deposits.txt");
+
+    cout << "please input the id, name, deposit~" << endl;
+    cout << "please press Ctrl+Z if you want to quit! " << endl;
+
+    while(cin >> id >> name >> deposit){
+        file << id << " " << name << " " << deposit << endl;
+    }
+
+    file.close();
+
 
 //    ofstream file;
 //    file.open("hehe.txt");
