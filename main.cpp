@@ -10,6 +10,7 @@
 #include "Enemy.h"
 #include "Ninja.h"
 #include "Monster.h"
+#include <fstream>
 
 using namespace std;
 
@@ -71,24 +72,30 @@ using namespace std;
 //    }
 //};
 
-void tryCatch(){
-    try {
-        int momsAge = 100;
-        int sonsAge = 200;
-        if(sonsAge > momsAge) {
-            throw 99;
-        }
-    }catch (int e){
-        cout << "Son couldn't be older than Mom! ERROR NUMBER is: " << e << endl;
-    }catch (...){
-        cout << "I can handle every ERROR!" << endl;
-    }
+//void tryCatch(){
+//    try {
+//        int momsAge = 100;
+//        int sonsAge = 200;
+//        if(sonsAge > momsAge) {
+//            throw 99;
+//        }
+//    }catch (int e){
+//        cout << "Son couldn't be older than Mom! ERROR NUMBER is: " << e << endl;
+//    }catch (...){
+//        cout << "I can handle every ERROR!" << endl;
+//    }
 
-}
+//}
 
 int main() {
 
-    tryCatch();
+
+//    ofstream file;
+//    file.open("hehe.txt");
+//    file << "HeHe ~ !" << endl;
+//    file.close();
+
+//    tryCatch();
 
 //    Elon <int>e1(100);
 //    Elon <double>e2(100.92);
